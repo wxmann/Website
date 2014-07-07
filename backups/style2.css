@@ -1,0 +1,52 @@
+body {
+	/* background-color: black; */
+	background-image: url("20130819-DSC_1012.jpg");
+	/* color:white; */
+}
+
+
+#nav-link {
+	width:20%;
+	color:black;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+#nav-link .title {
+	font-size:40px;
+}
+
+#nav-link ul {
+	list-style-type:none;
+	align:left;
+	padding: 0px 0px;
+}
+
+#nav-link ul li {
+	text-align:left;
+	padding: .3em .3em;
+	background-color:white;
+	opacity:0.4;
+	filter: alpha(opacity=40);
+	float:left;
+	width: 50%;
+	border-style:solid;
+	border-color:black;
+}
+
+
+#nav-link a:link {
+	text-decoration:none;
+	color:black;
+}
+
+#nav-link a:visited{
+	text-decoration:none;
+	color:black;
+}
+
+#nav-link a:hover {
+	text-decoration:none;
+	color:black;
+	background-color:yellow;
+}

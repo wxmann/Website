@@ -1,0 +1,50 @@
+#pics {
+	color:white;
+	position:relative;
+	left:7.5%;
+	top:0px;
+	width:85%;
+	
+	height:900px;
+	z-index:-1;
+	overflow:hidden;
+	
+	border-style:solid;
+	border-width: 2px;
+}
+
+.best {
+	
+	display:none;
+	
+	position:absolute;
+	top:-50px;
+	left:0;
+	
+	width:100%;
+	
+}
+
+#pics img {
+	width:50%;
+	height: auto;
+}
+/*
+#pics img {
+	visibility:hidden;
+}*/
+
+#pics ul {
+	list-style-type:none;
+	
+	/*
+	border-style:solid;
+	border-width: 2px;  */
+}
+
+#pics ul li {
+	visibility:hidden;
+/*
+	border-style:dashed;
+	border-width: 2px; */
+} 
